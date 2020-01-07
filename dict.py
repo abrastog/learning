@@ -43,8 +43,13 @@ abhay = {
   "wedding" : {
   "date" : "25 & 26th feb",
   "location" : "bangalore",
-  }
+ }
 }
-tapachu = json.loads(abhay)
 
-print(tapachu)
+
+print(abhay)
+
+test = {"abhay" : "Roopa" , "wife": "appuchu", "life" : "grow old with u"}
+
+user_input = raw_input("search what u looking for :- \nabhay \nwife \nlife \n")
+print(test[user_input])
