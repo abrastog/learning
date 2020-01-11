@@ -12,6 +12,7 @@ while(Guess < 9):
     elif value == number :
         print ("you enter the correct number")
         print "you took %r chance to give correct answer" %(Guess)
+        print "NOw your game is over""
         break
     else :
         print("value is greater ")
