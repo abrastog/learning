@@ -6,7 +6,7 @@ def abhay():
     return appuchu #always use return function in ur program
 
 
-print (abhay())   
+print (abhay())
 
 
 
